@@ -1,0 +1,22 @@
+body{
+    position: fixed; /*ensures full screen, no scroll*/
+    background-color: #121212; 
+    color: #ededed; 
+    box-sizing:border-box;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+} 
+
+body>* {
+    border: 1px solid tomato;
+    border: 1px solid transparent;
+}
+
+#mycanvas {
+    box-sizing: border-box;
+    /* width: 100%; */
+    /* height: 100%; */
+    margin: 0;
+}

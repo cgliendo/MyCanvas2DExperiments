@@ -1,0 +1,31 @@
+body{
+    background-color: #121212; 
+    color: #ededed; 
+    padding: 5rem 10rem;
+} 
+
+body * {
+    border: 1px solid tomato;
+/*    border: 1px solid transparent;*/
+}
+
+.bookCard {
+    /* display: flex; */
+    /* width: 250px; */
+    width: 250px;
+    background: #232323;
+    margin: 0.5rem 0.5rem;
+    /* padding: 2rem 3rem; */
+}
+.bookCardInfo {
+    padding: 1rem 2rem;
+}
+
+.bookShelf{
+    /* width: 300px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    /* justify-content: space-around; */
+}
